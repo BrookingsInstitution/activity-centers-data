@@ -1,0 +1,1 @@
+The folders CBSA_Cores--ESRI_Shapefile and CBSA_Cores--geoJSON each contain 110 points, representing the centroids of jobs in primary centers for each metro area studied.  These are the CBSA cores used to measure activity centers' distances from the metro area cores.  Both files are in WGS 84.

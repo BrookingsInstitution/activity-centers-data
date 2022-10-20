@@ -1,0 +1,5 @@
+Block_Group_Data/Block_Group_Data--ESRI_Shapefile/Block_Group_Data.dbf filter=lfs diff=lfs merge=lfs -text
+Block_Group_Data/Block_Group_Data--ESRI_Shapefile/Block_Group_Data.shp filter=lfs diff=lfs merge=lfs -text
+Block_Group_Data/Block_Group_Data--geoJSON/Block_Group_Data.geojson filter=lfs diff=lfs merge=lfs -text
+Block_Group_Data/Block_Group_Data--CSV/Block_Group_Data.csv filter=lfs diff=lfs merge=lfs -text
+Block_Group_Data/Block_Group_Data.rds filter=lfs diff=lfs merge=lfs -text

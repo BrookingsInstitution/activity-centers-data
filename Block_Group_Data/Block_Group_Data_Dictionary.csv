@@ -1,0 +1,113 @@
+﻿VARIABLE,CATEGORY,SOURCE,DESCRIPTION
+GEOID,BG Identification,Census 2020 TigerLine Shapefiles,FIPS code of 2020 Block Group
+CSA_FIPS,BG Identification,Census 2020 TigerLine Shapefiles,FIPS code of 2020 Combined Statistical Area
+CBSA_FIPS,BG Identification,Census 2020 TigerLine Shapefiles,FIPS code of 2020 Core-Based Statistical Area
+CBSA_NAME,BG Identification,Census 2020 TigerLine Shapefiles,Name of 2020 Core-Based Statistical Area
+CBSA_POP,BG Identification,2020 Decennial Census,Population of 2020 Core-Based Statistical Area
+CBSA_RANK,BG Identification,Brookings Analysis of 2020 Decennial Census,Population rank of 2020 Core-Based Statistical Area
+CBSA_EPSG,BG Identification,Brookings Analysis of Census 2020 TigerLine Shapefiles,EPSG code for coordinate reference system used in analyzing data
+CNTY_FIPS,BG Identification,Census 2020 TigerLine Shapefiles,FIPS code of 2020 county equivalent
+CNTY_NAME,BG Identification,Census 2020 TigerLine Shapefiles,Name of 2020 county equivalent
+AREA_MI,BG Area,Census 2020 TigerLine Shapefiles,Land area of the block group in square miles
+DAREA_MI,BG Area,Brookings Analysis of 2019 National Land Cover Database,Developed land area of the block group in square miles
+DIST_CORE,BG Area,Brookings Analysis of Census 2020 TigerLine Shapefiles,Distance from metro area core
+TYPE,Center Identification,Brookings Analysis of Various Data,"Center Type (primary center, secondary center, monocenter, non-center"
+SUBTYPE,Center Identification,Brookings Analysis of Various Data,Center Subtype (same as center type except for monocenters)
+FLAG_AC,Center Identification,Brookings Analysis of Various Data,Binary flag for whether block group is an activity center
+FLAG_PC,Center Identification,Brookings Analysis of Various Data,Binary flag for whether block group is a primary center
+FLAG_SC,Center Identification,Brookings Analysis of Various Data,Binary flag for whether block group is a secondary center
+FLAG_MC,Center Identification,Brookings Analysis of Various Data,Binary flag for whether block group is a monocenter
+POP_TOTAL,Population,2020 Decennial Census,Population of block group from 2020 Census
+POP_2010,Population,2010 Decennial Census,Population of block group from 2010 Census
+POP_WHITE,Population,2020 Decennial Census,Non-Hispanic white population of block group from 2020 Census
+POP_BLACK,Population,2020 Decennial Census,Non-Hispanic Black population of block group from 2020 Census
+POP_LATIN,Population,2020 Decennial Census,Latino/Hispanic population of block group from 2020 Census
+POP_ASIAN,Population,2020 Decennial Census,Non-Hispanic Asian population of block group from 2020 Census
+INCOME,Population,2019 American Community Survey 5-year estimates,Total income of residents of block group from 2019 ACS 5-year estimates
+JOB_TOTAL,Employment,2018 LEHD data (2016 for Alaska),Total private-sector jobs in block group
+JOB_TRADE,Employment,Brookings Analysis of 2018 LEHD data (2016 for Alaska),Tradable private-sector jobs in block group
+JOB_RETAIL,Employment,2018 LEHD data (2016 for Alaska),Retail (NAICS 44-45 or 81) private-sector jobs in block group
+JOB_OFFICE,Employment,2018 LEHD data (2016 for Alaska),Office (NAICS 51-56) private-sector jobs in block group
+JOB_INDUST,Employment,2018 LEHD data (2016 for Alaska),Industrial (NAICS 11-42 or 48-49) private-sector jobs in block group
+JOB_HOSP,Employment,2018 LEHD data (2016 for Alaska),Hospitality (NAICS 71-72) private-sector jobs in block group
+JOB_EDMEDS,Employment,2018 LEHD data (2016 for Alaska),Eds-Meds (NAICS 61-62) private-sector jobs in block group
+JOB_INC_1,Employment,2018 LEHD data (2016 for Alaska),Private-sector jobs paying $1250/month or less
+JOB_INC_2,Employment,2018 LEHD data (2016 for Alaska),Private-sector jobs paying $1251-$3333/month
+JOB_INC_3,Employment,2018 LEHD data (2016 for Alaska),Private-sector jobs paying $3334/month or more
+JOB_ED_NHS,Employment,2018 LEHD data (2016 for Alaska),Private-sector jobs for employees without high-school diplomas
+JOB_ED_HS,Employment,2018 LEHD data (2016 for Alaska),Private-sector jobs for employees with high-school diplomas but no college
+JOB_ED_AS,Employment,2018 LEHD data (2016 for Alaska),Private-sector jobs for employees with some college but no bachelor's degrees
+JOB_ED_BS,Employment,2018 LEHD data (2016 for Alaska),Private-sector jobs for employees with bachelor's degrees
+JOB_YOUNG,Employment,2017 LEHD data (2016 for Alaska),Private-sector jobs at firms less than five years old in the block group
+JOB_OLD,Employment,2017 LEHD data (2016 for Alaska),Private-sector jobs at firms at least five years old in the block group
+JOB_2011,Employment,2011 LEHD data,2011 private-sector jobs in block group
+LIB_CNT,Community,2019 IMLS Public Library Survey,Count of public libraries in block group
+LIB_SQFT,Community,2019 IMLS Public Library Survey,Square feet of public library space in block group
+RELIG_CNT,Community,2020 SafeGraph Points of Interest Data,Count of places of worship in block group
+HIST_CNT,Community,2020 National Register of Historic Places Historic Site Data,Count of historic sites in block group
+PARK_CNT,Community,2020 ESRI park polygon data,"Count of local, county, and regional parks intersecting block group"
+MUSE_CNT,Tourism,2020 SafeGraph Points of Interest Data,Count of museums in block group
+STAD_CNT,Tourism,2020 DHS Homeland Infrastructure Founation-Level Data,Count of stadiums in block group
+STAD_SEAT,Tourism,2020 DHS Homeland Infrastructure Founation-Level Data,Number of stadium seats in block group
+LODGE_CNT,Tourism,2020 SafeGraph Points of Interest Data,Count of motels/hotels in block group
+CASINO_CNT,Tourism,2020 SafeGraph Points of Interest Data,Count of casinos in block group
+RESTA_CNT,Consumption,2020 SafeGraph Points of Interest Data,Count of restaurants in block group
+RETAIL_CNT,Consumption,2020 SafeGraph Points of Interest Data,Count of retail establishments in block group
+MEDIC_CNT,Consumption,2020 SafeGraph Points of Interest Data,Count of medical offices in block group
+AMUSE_CNT,Consumption,2020 SafeGraph Points of Interest Data,Count of amusement facilities in block group
+COLLEG_CNT,Institutional,2020 DHS Homeland Infrastructure Founation-Level Data,Count of four-year non-profit colleges in block group
+COLLEG_STU,Institutional,2020 DHS Homeland Infrastructure Founation-Level Data,Number of students at four-year non-profit colleges in block group
+COLLEG_EMP,Institutional,2020 DHS Homeland Infrastructure Founation-Level Data,Number of staff at four-year non-profit colleges in block group
+HOSP_CNT,Institutional,2020 DHS Homeland Infrastructure Founation-Level Data,Count of hospitals in block group
+HOSP_BED,Institutional,2020 DHS Homeland Infrastructure Founation-Level Data,Number of hospital beds in block group
+GOVBLD_CNT,Institutional,2020 DHS Homeland Infrastructure Founation-Level Data,Count of state office buildings and courthouses in block group
+GSA_CNT,Institutional,2020 DHS Homeland Infrastructure Founation-Level Data,Count of GSA offices in block group
+GSA_SQFT,Institutional,2020 DHS Homeland Infrastructure Founation-Level Data,Square feet of GSA office space in block group
+SHIP_CNT,Institutional,2020 SafeGraph Points of Interest Data,Count of post offices in block group
+TRANS_BIN,Institutional,2020 DOT BTS Intermodal Passenger Connectivity Database,Binary flag for presence of intercity rail or air stations in block group
+CLUST_BG_1,Clustering,Brookings Analysis of Various Data,"Number of block groups, including this one, within 1 mile of this block group"
+CLUST_BG_3,Clustering,Brookings Analysis of Various Data,"Number of block groups, including this one, within 3 miles of this block group"
+CLUST_BG_5,Clustering,Brookings Analysis of Various Data,"Number of block groups, including this one, within 5 miles of this block group"
+CLUST_PC_1,Clustering,Brookings Analysis of Various Data,"Number of primary centers, including this one if applicable, within 1 mile of this block group"
+CLUST_PC_3,Clustering,Brookings Analysis of Various Data,"Number of primary centers, including this one if applicable, within 3 miles of this block group"
+CLUST_PC_5,Clustering,Brookings Analysis of Various Data,"Number of primary centers, including this one if applicable, within 5 miles of this block group"
+CLUST_SC_1,Clustering,Brookings Analysis of Various Data,"Number of secondary centers, including this one if applicable, within 1 mile of this block group"
+CLUST_SC_3,Clustering,Brookings Analysis of Various Data,"Number of secondary centers, including this one if applicable, within 3 miles of this block group"
+CLUST_SC_5,Clustering,Brookings Analysis of Various Data,"Number of secondary centers, including this one if applicable, within 5 miles of this block group"
+CLUST_MC_1,Clustering,Brookings Analysis of Various Data,"Number of monocenters, including this one if applicable, within 1 mile of this block group"
+CLUST_MC_3,Clustering,Brookings Analysis of Various Data,"Number of monocenters, including this one if applicable, within 3 miles of this block group"
+CLUST_MC_5,Clustering,Brookings Analysis of Various Data,"Number of monocenters, including this one if applicable, within 5 miles of this block group"
+SLD_NWI,Walkability,2021 Smart Location Database ,EPA 2021 National Walkability Index
+SLD_D3A,Road Network,2021 Smart Location Database - 2018 HERE Maps NAVSTREETS,Total road network density
+SLD_D3AAO,Road Network,2021 Smart Location Database - 2018 HERE Maps NAVSTREETS,Network density in terms of facility miles of auto-oriented links per square mile
+SLD_D3AMM,Road Network,2021 Smart Location Database - 2018 HERE Maps NAVSTREETS,Network density in terms of facility miles of multi-modal links per square mile
+SLD_D3APO,Road Network,2021 Smart Location Database - 2018 HERE Maps NAVSTREETS,Network density in terms of facility miles of pedestrian-oriented links per square mile
+SLD_D3B,Road Network,2021 Smart Location Database - 2018 HERE Maps NAVSTREETS,"Street intersection density (weighted, auto-oriented intersections eliminated)"
+SLD_D3BAO,Road Network,2021 Smart Location Database - 2018 HERE Maps NAVSTREETS,Intersection density in terms of auto-oriented intersections per square mile
+SLD_D3BMM3,Road Network,2021 Smart Location Database - 2018 HERE Maps NAVSTREETS,Intersection density in terms of multi-modal intersections having three legs per square mile
+SLD_D3BMM4,Road Network,2021 Smart Location Database - 2018 HERE Maps NAVSTREETS,Intersection density in terms of multi-modal intersections having four or more legs per square mile
+SLD_D3BPO3,Road Network,2021 Smart Location Database - 2018 HERE Maps NAVSTREETS,Intersection density in terms of pedestrian-oriented intersections having three legs per square mile
+SLD_D3BPO4,Road Network,2021 Smart Location Database - 2018 HERE Maps NAVSTREETS,Intersection density in terms of pedestrian-oriented intersections having four or more legs per square mile
+SLD_D5AR,Destination Accessibility,2021 Smart Location Database ,"Jobs within 45 minutes auto travel time, time- decay (network travel time) weighted"
+SLD_D5AE,Destination Accessibility,2021 Smart Location Database ,"Working age population within 45 minutes auto travel time, time-decay (network travel time) weighted"
+SLD_D5BR,Destination Accessibility,2021 Smart Location Database ,"Jobs within 45-minute transit commute, distance decay (walk network travel time, GTFS schedules) weighted "
+SLD_D5BE,Destination Accessibility,2021 Smart Location Database ,"Working age population within 45-minute transit commute, distance decay (walk network travel time, GTFS schedules) weighted"
+SLD_D5CR,Destination Accessibility,2021 Smart Location Database ,Proportional Accessibility to Regional Destinations - Auto: Employment accessibility expressed as a ratio of total CBSA accessibility
+SLD_D5CRI,Destination Accessibility,2021 Smart Location Database ,Regional Centrality Index – Auto: CBG [D5cr] score relative to max CBSA [D5cr] score
+SLD_D5CE,Destination Accessibility,2021 Smart Location Database ,Proportional Accessibility to Regional Destinations - Auto: Working age population accessibility expressed as a ratio of total CBSA accessibility
+SLD_D5CEI,Destination Accessibility,2021 Smart Location Database ,Regional Centrality Index – Auto: CBG [D5ce] score relative to max CBSA [D5ce] score 
+SLD_D5DR,Destination Accessibility,2021 Smart Location Database ,Proportional Accessibility of Regional Destinations - Transit: Employment accessibility expressed as a ratio of total MSA accessibility
+SLD_D5DRI,Destination Accessibility,2021 Smart Location Database ,Regional Centrality Index – Transit: CBG [D5dr] score relative to max CBSA [D5dr] score
+SLD_D5DE,Destination Accessibility,2021 Smart Location Database ,Proportional Accessibility of Regional Destinations - Transit: Working age population accessibility expressed as a ratio of total MSA accessibility
+SLD_D5DEI,Destination Accessibility,2021 Smart Location Database ,Regional Centrality Index – Transit: CBG [D5de] score relative to max CBSA [D5de] score
+SLD_VMTPW,VMT and Greenhouse Gases,2022 Smart Location Database ,VMT per worker
+SLD_VMTPWN,VMT and Greenhouse Gases,2023 Smart Location Database ,Non-Commuting VMT per worker
+SLD_VMTPWC,VMT and Greenhouse Gases,2024 Smart Location Database ,Commuting VMT per worker
+SLD_GHGPW,VMT and Greenhouse Gases,2025 Smart Location Database ,Greenhouse gas emissions per worker
+SLD_GHGTOT,VMT and Greenhouse Gases,2026 Smart Location Database ,Total greenhouse gas emissions
+SLD_SLC,VMT and Greenhouse Gases,2027 Smart Location Database ,Unknown
+CT_COMMUN,BG Category Scores,Brookings Analysis of Various Data,"Percentile rank of the block group for ""community"" assets"
+CT_TOURIS,BG Category Scores,Brookings Analysis of Various Data,"Percentile rank of the block group for ""tourism"" assets"
+CT_CONSUM,BG Category Scores,Brookings Analysis of Various Data,"Percentile rank of the block group for ""consumption"" assets"
+CT_INSTIT,BG Category Scores,Brookings Analysis of Various Data,"Percentile rank of the block group for ""institutional"" assets"
+CT_ECONOM,BG Category Scores,Brookings Analysis of Various Data,"Percentile rank of the block group for ""economic"" assets"
